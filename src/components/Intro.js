@@ -12,7 +12,7 @@ class Intro extends React.Component {
 
           <p>Im <strong>Corbin</strong>, a Computer Science student</p>
           <p>I enjoy creating beautiful things with code</p>
-          <p><strong>that help people, and make an impact.</strong></p>
+          <p>that <strong>help people</strong>, and <strong>make an impact.</strong></p>
 
 
         </article>
