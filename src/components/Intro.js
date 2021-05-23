@@ -10,7 +10,7 @@ class Intro extends React.Component {
 
           <h2>Hello</h2>
 
-          <p>Im <strong>Corbin</strong>, a Computer Science student from Vancouver.</p>
+          <p>Im <strong>Corbin</strong>, a Computer Science student</p>
           <p>I enjoy creating beautiful things with code</p>
           <p><strong>that help people, and make an impact.</strong></p>
 
