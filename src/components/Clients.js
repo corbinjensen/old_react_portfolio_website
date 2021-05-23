@@ -22,15 +22,6 @@ class Clients extends React.Component {
         <div className="clients wrapper">
 
           <section className="client">
-            <img width="100px" src={Steve} alt=""/>
-            <blockquote cite="http://">
-              <strong>delightful to work with</strong> and like to look into the future.
-            </blockquote>
-            <h4>- Steve Warren</h4>
-            <h5>Executive Producer Chinamerica Radio</h5>
-          </section>
-
-          <section className="client">
             <img width="100px" src={Rebecca} alt=""/>
             <blockquote cite="http://">
               Corbin helped me work through some of my business sales strategies - I would <strong>recommend him to anyone starting a business</strong> who needs to rethink their marketing process.

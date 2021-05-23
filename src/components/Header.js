@@ -13,7 +13,7 @@ class Header extends React.Component {
 
         <ul className="mainMenu">
           <li><a href="http://github.com/corbinjensen">Github</a></li>
-          <li><a href="https://medium.com/@Corbin_Jensen">Blog</a></li>
+          <li><a href="https://medium.com/@corblog">Blog</a></li>
           <li><a href="mailto:c@corbinjensen.ca">Contact</a></li>
         </ul>
 
