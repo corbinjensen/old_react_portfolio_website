@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+@font-face {
+  font-family: 'Averta';
+  src: url("../font/webfontkit/intelligent_design_-_averta-webfont.woff2") format("woff2"), url("../font/webfontkit/intelligent_design_-_averta-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'avertalight';
+  src: url("../font/webfontkit/intelligent_design_-_averta_light-webfont.woff2") format("woff2"), url("../font/webfontkit/intelligent_design_-_averta_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'Averta', sans-serif;
+  font-size: 15px;
+  line-height: 1.3; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'avertalight', serif;
+  font-weight: 300; }
+
+h4, h5 {
+  margin-bottom: .5rem; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1em;
+  text-transform: uppercase; }
+
+a {
+  color: #446bf9; }
+
+strong {
+  font-weight: 900;
+  color: #446bf9; }
+
+@media (min-width: 356px) {
+  h2 {
+    font-size: 2.1em; }
+  h3 {
+    font-size: 1.5em; } }
+
+@media (min-width: 396px) {
+  h2 {
+    font-size: 2.2em; } }
+
+@media (min-width: 435px) {
+  h2 {
+    font-size: 2.3em; }
+  h3 {
+    font-size: 1.6em; } }
+
+@media (min-width: 470px) {
+  h2 {
+    font-size: 2.4em; } }
+
+@media (min-width: 503px) {
+  h2 {
+    font-size: 2.5em; }
+  h3 {
+    font-size: 1.7em; } }
+
+@media (min-width: 539px) {
+  h2 {
+    font-size: 2.6em; }
+  h3 {
+    font-size: 1.8em; } }
+
+@media (min-width: 570px) {
+  h2 {
+    font-size: 2.7em; }
+  h3 {
+    font-size: 1.9em; } }
+
+@media (min-width: 611px) {
+  h2 {
+    font-size: 2.8em; } }
+
+@media (min-width: 632px) {
+  h2 {
+    font-size: 3em; }
+  h3 {
+    font-size: 2em; } }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?79771692");
+  src: url("../font/fontello.eot?79771692#iefix") format("embedded-opentype"), url("../font/fontello.woff2?79771692") format("woff2"), url("../font/fontello.woff?79771692") format("woff"), url("../font/fontello.ttf?79771692") format("truetype"), url("../font/fontello.svg?79771692#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-download:before {
+  content: '\e800'; }
+
+/* '' */
+.icon-github:before {
+  content: '\e801'; }
+
+/* '' */
+.icon-linkedin:before {
+  content: '\e802'; }
+
+/* '' */
+.icon-mail:before {
+  content: '\e803'; }
+
+.icon-phone:before {
+  content: '\e804'; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  color: #112147; }
+
+.wrapper {
+  padding: 0 .5rem; }
+
+@media (min-width: 680px) {
+  .wrapper {
+    padding: 0 1rem; } }
+
+.sectionTitle {
+  margin: 1.5rem 0; }
+
+blockquote {
+  max-width: 450px;
+  font-size: 1.5em; }
+
+blockquote::before {
+  content: "\201C";
+  color: #446bf9; }
+
+blockquote::after {
+  content: "\201D";
+  color: #446bf9; }
+
+footer {
+  background-color: #446bf9;
+  color: #fafafa;
+  height: 100%;
+  padding: .5rem .5rem; }
+
+footer a {
+  color: #fafafa; }

@@ -1,0 +1,44 @@
+.CTA {
+  min-width: 340px; }
+
+.Intro {
+  display: flex;
+  margin: 2em 0;
+  flex-direction: column;
+  height: 20em;
+}
+
+@media (min-width: 671px) {
+  .Intro {
+    flex-direction: row; }
+  .Intro {
+    padding: 1em; }
+  article {
+    width: 100%; } }
+
+button {
+  background-color: transparent;
+  border: 0.2em solid #112147;
+  color: #112147; }
+
+.CTA_Buttons {
+  margin-top: 1em; }
+
+.CTA_Buttons button {
+  margin-right: 1em; }
+
+.WorkSlider {
+  background-color: #446bf9; }
+
+article {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 624px; }
+
+@media (min-width: 356px) {
+  article p {
+    font-size: 1.1em; } }
+
+@media (min-width: 632px) {
+  article p {
+    font-size: 1.1em; } }

@@ -1,0 +1,105 @@
+@import "colors";
+
+.CTA {
+  min-width:340px;
+  margin-bottom: 30vh;
+}
+
+.Intro {
+  display: flex;
+  margin: 2em 0;
+  flex-direction: column;
+}
+
+@media (min-width:671px) {
+  .Intro {
+    flex-direction: row;
+  }
+  .Intro {
+    padding: 1em;
+  }
+  article {
+    width: 100%;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: .2em solid $navyBlue;
+  color: $navyBlue;
+  font-family: "Averta", sans-serif;
+}
+
+
+
+.CTA_Buttons {
+  margin-top: 1em;
+}
+
+.CTA_Buttons button {
+  margin-right: 1em;
+}
+
+.WorkSlider {
+  background-color: $brandBlue;
+}
+
+article {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 624px;
+}
+
+@media (min-width: 356px) {
+  article p {
+    font-size: 1.1em;
+  }
+}
+
+// @media (min-width: 396px) {
+//   article p {
+//     font-size: .2em;
+//   }
+// }
+//
+// @media (min-width: 435px) {
+//   article p {
+//     font-size: .3em;
+//   }
+// }
+//
+// @media (min-width: 470px) {
+//   article p {
+//     font-size: .4em;
+//   }
+// }
+//
+// @media (min-width: 503px) {
+//   article p {
+//     font-size: .5em;
+//   }
+// }
+//
+// @media (min-width: 539px) {
+//   article p {
+//     font-size: .6em;
+//   }
+// }
+//
+// @media (min-width: 570px) {
+//   article p {
+//     font-size: .7em;
+//   }
+// }
+//
+// @media (min-width: 611px) {
+//   article p {
+//     font-size: .9em;
+//   }
+// }
+
+@media (min-width: 632px) {
+  article p {
+    font-size: 1.1em;
+  }
+}
